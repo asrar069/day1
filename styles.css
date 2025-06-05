@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+
+.HeadDiv{
+    text-align: center;
+    height: 6rem;
+    background-color: rgb(224, 255, 255);
+    font-size: 2rem;
+    /* margin-bottom: 6rem; */
+}
+
+.HeadDiv h1{
+    text-shadow: 2px 2px #7f7f7f;
+}
+
+.bodySection{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15rem;
+    /* background-color: blue; */
+    /* background-color: beige; */
+}
+.bodySection img{
+   height: 35rem;
+   width: 40rem;
+   padding-top: 1rem;
+   
+}
+
+
+.paraBody{
+    font-size: 1.9rem;
+    margin-left: 9rem;
+    margin-right: 10rem;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.4rem;
+}
+.bodyhunmein{
+    background-color: beige;
+}
+
+button{
+    font-size: 2rem;
+    margin-left: 60rem;
+    margin-bottom: 12rem;
+}
